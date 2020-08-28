@@ -111,6 +111,7 @@ export type WidgetSearchParametersOptions = {
 };
 
 export type IndexUiState = {
+  q?: string;
   query?: string;
   refinementList?: {
     [attribute: string]: string[];
