@@ -1,4 +1,4 @@
-import { StateMapping, IndexUiState } from 'instantsearch.js/es/types';
+import { StateMapping, IndexUiState } from '../../types';
 
 function getIndexStateWithoutConfigure(uiState: IndexUiState): IndexUiState {
   const { configure, ...trackedUiState } = uiState;
