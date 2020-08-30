@@ -10,7 +10,7 @@ export default function singleIndexQStateMapping(
 ): StateMapping {
   return {
     stateToRoute(uiState) {
-      let state = uiState[indexName] || {};
+      const state = uiState[indexName] || {};
       if (state.query) {
         state.q = state.query;
         delete state.query;
@@ -18,7 +18,7 @@ export default function singleIndexQStateMapping(
       return getIndexStateWithoutConfigure(state);
     },
     routeToState(routeState = {}) {
-      let state = routeState;
+      const state = routeState;
       if (state.q) {
         state.query = state.q;
         delete state.q;
