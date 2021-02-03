@@ -1,6 +1,6 @@
 {
   "name": "@tnir/instantsearch.js",
-  "version": "4.13.2-q",
+  "version": "4.13.2-q.1",
   "description": "InstantSearch.js is a JavaScript library for building performant and instant search experiences with Algolia.",
   "homepage": "https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/",
   "types": "es/index.d.ts",
@@ -64,10 +64,10 @@
   "devDependencies": {
     "@algolia/client-search": "4.8.2",
     "@babel/cli": "7.8.3",
-    "@babel/core": "7.8.3",
+    "@babel/core": "7.8.7",
     "@babel/plugin-proposal-class-properties": "7.8.3",
     "@babel/plugin-transform-react-constant-elements": "7.8.3",
-    "@babel/preset-env": "7.8.3",
+    "@babel/preset-env": "7.8.7",
     "@babel/preset-react": "7.8.3",
     "@babel/preset-typescript": "7.8.3",
     "@microsoft/api-extractor": "7.9.2",
